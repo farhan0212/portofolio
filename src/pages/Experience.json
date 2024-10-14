@@ -1,0 +1,32 @@
+[
+    {
+        "Company": "Pt. Alkonusa Teknik Inti",
+        "Position": "Staff It",
+        "Duration": "August 2022 - Present",
+        "Responsibilities": [
+            "ERP Processes Management: Managed the input of material request forms and confirmations into the ERP system, ensuring data accuracy and timeliness.",
+            "IT Support: Provided on-site and remote IT support, resolving hardware, software, and network issues promptly.",
+            "Database Management: Performed CRUD operations on company databases, maintaining data integrity, and Backup."
+        ]
+    },{
+        "Company": "Cv. Primer Computer",
+        "Position": "IT Technical Support & Invoice Processing",
+        "Duration": "March 2019 - July -2022",
+        "Responsibilities": [
+            "Hardware Troubleshooting: Conducted comprehensive diagnostics and repairs on desktop computers and laptops, effectively resolving hardware issues to ensure optimal system performance.",
+            "Operating System & Driver Installation: Installed various operating systems (Windows, Linux, etc.) and all necessary drivers, ensuring seamless integration and functionality.",
+            "Software Management: Installed and configured essential software applications, keeping systems up- to-date and secure.",
+            "Invoice Management: Utilized Accurate 4 to efficiently create and manage invoices, maintaining accu- rate financial records and ensuring timely billing."
+        ]
+    },
+    {
+        "Company": "Zenlayer",
+        "Position": "Server Installation",
+        "Duration": "September 2020 - September 2021",
+        "Responsibilities": [
+            "Server Rack Installation: Installed and mounted servers into racks, ensuring secure and organized placement.",
+            "Cabling Management: Handled server cabling, implementing efficient layouts that enhanced system reliability.",
+            "Infrastructure Optimization: Contributed to setting up robust server infrastructures, reducing down- time."
+        ]
+    }
+]  

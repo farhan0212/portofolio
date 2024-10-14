@@ -4,7 +4,8 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     fontFamily: {
-      sans: ["Caveat", "sans-serif"],
+      hero: ["Caveat", "sans-serif"],
+      sora: ["Sora", "serif"],
     },
     extend: {},
   },
