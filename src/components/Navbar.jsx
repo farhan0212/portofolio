@@ -5,7 +5,6 @@ function Navbar() {
     { to: "/", label: "Home" },
     { to: "/experiences", label: "Experiences" },
     { to: "/projects", label: "Projects" },
-    { to: "/contact", label: "Contact" },
   ];
   return (
     <>

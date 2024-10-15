@@ -23,6 +23,7 @@ function Experiences() {
                 </li>
               );
             })}
+            <hr className="my-4" />
           </div>
         );
       })}
