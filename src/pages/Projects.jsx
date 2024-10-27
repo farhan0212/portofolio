@@ -1,5 +1,6 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import PropTypes from "prop-types";
+import Navbar from "../components/Navbar";
 
 const List = ({ children }) => {
   return (
@@ -16,6 +17,8 @@ List.propTypes = {
 function Projects() {
   return (
     <>
+      <Navbar />
+
       <div className="flex justify-center font-extrabold text-4xl tracking-wide my-8">
         Projects
       </div>
