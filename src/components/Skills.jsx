@@ -1,4 +1,6 @@
 import { motion } from "framer-motion";
+import "aos/dist/aos.css";
+import AOS from "aos";
 import {
   Database,
   Globe,
@@ -9,6 +11,7 @@ import {
   Braces,
   Layers,
 } from "lucide-react";
+import { useEffect } from "react";
 
 const skills = [
   { name: "React.js", icon: <Braces className="w-8 h-8" /> },
@@ -22,6 +25,10 @@ const skills = [
 ];
 
 function Skills() {
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
   return (
     <>
       <section className="py-12">
@@ -33,7 +40,9 @@ function Skills() {
             {skills.map((skill, index) => (
               <motion.div
                 key={index}
-                className="bg-white p-6 rounded-lg shadow-md flex flex-col items-center justify-center text-center hover:scale-125 duration-500">
+                className="bg-white p-6 rounded-lg shadow-md flex flex-col items-center justify-center text-center hover:scale-125 duration-500"
+                data-aos="fade-up"
+                data-aos-delay={index * 100}>
                 {skill.icon}
                 <h3 className="mt-4 font-semibold">{skill.name}</h3>
               </motion.div>

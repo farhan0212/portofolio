@@ -6,6 +6,8 @@ import {
   ArrowDownToLine,
   GitBranch,
 } from "lucide-react";
+import { useEffect } from "react";
+import Aos from "aos";
 
 const Hero = () => {
   const handleWhatsAppClick = () => {
@@ -34,13 +36,24 @@ const Hero = () => {
     onClick: PropTypes.func,
   };
 
+  useEffect(() => {
+    Aos.init();
+  }, []);
+
   return (
     <div className="mt-4 max-w-4xl">
-      <h1 className="font-hero text-4xl mb-4">Hello, I'm Farhan</h1>
+      <h1
+        className="font-hero text-4xl mb-4"
+        data-aos="fade-left"
+        data-aos-anchor="#example-anchor"
+        data-aos-offset="500"
+        data-aos-duration="500">
+        Hello, I'm Farhan
+      </h1>
       <h2 className="font-sora text-4xl font-semibold">
         Software Engineer & Web Developer
       </h2>
-      <p className="text-lg text-gray-600 mt-4 mb-4">
+      <p className="text-lg text-gray-600 mt-4 mb-4" data-aos="zoom-in">
         I am a passionate software engineer with a background in computer
         science and a strong foundation in web development. I love making things
         perfect.
